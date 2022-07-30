@@ -76,6 +76,8 @@ public class MainActivity extends AppCompatActivity {
 
                         InputStreamReader isw = new InputStreamReader(in);
 
+                        
+
                         int data = isw.read();
                         while (data != -1) {
                             current += (char) data;
