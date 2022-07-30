@@ -75,8 +75,7 @@ public class MainActivity extends AppCompatActivity {
                         InputStream in = urlConnection.getInputStream();
 
                         InputStreamReader isw = new InputStreamReader(in);
-
-                        
+                        // checking 
 
                         int data = isw.read();
                         while (data != -1) {
